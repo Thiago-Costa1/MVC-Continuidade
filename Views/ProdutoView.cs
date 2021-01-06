@@ -10,9 +10,9 @@ namespace MVC_CONSOLE.Views
         {
             foreach (var item in produtos)
             {
-                Console.WriteLine($"Código : {item.Codigo}");
-                Console.WriteLine($"Produto : {item.Nome}");
-                Console.WriteLine($"Preço : R$ {item.Preco}");
+                Console.WriteLine($"Código: {item.Codigo}");
+                Console.WriteLine($"Produto: {item.Nome}");
+                Console.WriteLine($"Preço: R${item.Preco}");
                 Console.WriteLine();
             }
         }
@@ -21,15 +21,17 @@ namespace MVC_CONSOLE.Views
         {   
             Produto produto = new Produto();
 
+            Console.Clear();
             Console.WriteLine("Digite um código:");
             produto.Codigo = int.Parse(Console.ReadLine() );
             
             Console.WriteLine("Digite um nome para o produto:");
             produto.Nome = Console.ReadLine();
 
-            Console.WriteLine($"Digite o preço do produto");
+            Console.WriteLine($"Digite o preço do produto:");
             produto.Preco = float.Parse(Console.ReadLine());
-
+            
+            Console.WriteLine();
             return produto;
         }
         

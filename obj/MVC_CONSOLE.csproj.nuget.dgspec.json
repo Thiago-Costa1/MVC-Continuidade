@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\MVC_CONSOLE\\MVC_CONSOLE.csproj": {}
+    "C:\\Users\\dev\\Desktop\\Novapastas\\MVC-Continuidade\\MVC_CONSOLE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\MVC_CONSOLE\\MVC_CONSOLE.csproj": {
+    "C:\\Users\\dev\\Desktop\\Novapastas\\MVC-Continuidade\\MVC_CONSOLE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\MVC_CONSOLE\\MVC_CONSOLE.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\Novapastas\\MVC-Continuidade\\MVC_CONSOLE.csproj",
         "projectName": "MVC_CONSOLE",
-        "projectPath": "C:\\Users\\dev\\Desktop\\MVC_CONSOLE\\MVC_CONSOLE.csproj",
+        "projectPath": "C:\\Users\\dev\\Desktop\\Novapastas\\MVC-Continuidade\\MVC_CONSOLE.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\MVC_CONSOLE\\obj\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\Novapastas\\MVC-Continuidade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
