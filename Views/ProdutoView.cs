@@ -12,8 +12,10 @@ namespace MVC_CONSOLE.Views
             {
                 Console.WriteLine($"Código: {item.Codigo}");
                 Console.WriteLine($"Produto: {item.Nome}");
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Preço: R${item.Preco}");
                 Console.WriteLine();
+                Console.ResetColor();
             }
         }
 
@@ -30,8 +32,15 @@ namespace MVC_CONSOLE.Views
 
             Console.WriteLine($"Digite o preço do produto:");
             produto.Preco = float.Parse(Console.ReadLine());
-            
             Console.WriteLine();
+
+
+          
+
+            
+       
+          
+
             return produto;
         }
         
